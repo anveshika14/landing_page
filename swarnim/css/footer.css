@@ -1,10 +1,8 @@
 #footersection {opacity: 0; transform: translateY(20px); transition: opacity 0.5s ease-out, transform 0.5s ease-out;}
 footer{height:auto; position:relative; bottom:0; left:0; right:0; background:#1f1f1f; padding-bottom:0 !important;}
-/*footer .container{ width:90%; max-width:90%; padding:0;}*/
 .footerlogo{ width:100%; text-align:center; padding-bottom:20px;}
 .footerlogo a{display:inline;}
 .footerlogo a img{ width:150px;}
-/*.footerlogo a img{ width:142px;}*/
 .addresswrap{ width:100%; margin:10px 0 26px; padding-top: 24px; text-align:center; border-top:1px solid #ffffff1f;}
 .addresswrap p {color: #8f8f8f; opacity: 1; margin-bottom: 5px; font-size: 14px; line-height: 1.5; letter-spacing:1px;}
 .addresswrap b{font-weight: 500;  font-size:16px; color: #fff; display:block; margin-bottom:4px;}
@@ -37,7 +35,6 @@ footer{height:auto; position:relative; bottom:0; left:0; right:0; background:#1f
 .fot_nv ul li{display:block;}
 .fot_nv ul li a {width: auto; display:inline-block; font-size: 14px; color: #8f8f8f; font-weight: 500; padding:7px 0 0; letter-spacing: 2px; position: relative; text-transform: capitalize; transition:all 0.85s ease;}
 .fot_nv ul li a::before {content: ""; position: absolute; background:#fff; width: 0%; height:0.8px; bottom: -2px; right:0; transition:all 0.5s ease-in; z-index:-1;}
-/*.fot_nv ul li a:hover::before {width: 100%; right:auto; left:0;}*/
 .fot_nv ul li a:hover{color:#fff; border-color:#ffffff94;}
 
 
@@ -66,8 +63,6 @@ footer{height:auto; position:relative; bottom:0; left:0; right:0; background:#1f
 .phone_email{ width:100%;}
 .phone_email ul{ margin:0; padding:0;}
 .towork_logo{ width:100%; position:relative;}
-/*.towork_logo:after,.towork_logo:before{ content:""; position: absolute; background:#252525; width: 1px; height:90%; top:0; left:-15px; transition:all 0.5s ease-in; z-index:-1;}
-.towork_logo:after{ left:unset; right:-15px;}*/
 .towork_logo img{ width:90px; margin-left: 10px;}
 .flex_center_mob{display:none;}
 .rt_bord{position:relative}
