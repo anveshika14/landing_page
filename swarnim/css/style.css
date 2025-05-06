@@ -507,7 +507,6 @@ nav ul .enbtn::before {display: none !important;}
    will-change: transform;
    position: absolute;
    top: 6px;
-   /* right: 0; */
    left: 0;
    height: 5px;
    border-radius: 0;
@@ -738,8 +737,8 @@ footer .right_nav .media_icon ul li a::before {display: none;}
    font-size:18px; 
    display: -webkit-box; 
    -webkit-line-clamp: 2; 
-   -webkit-line-clamp: 2; /* For WebKit browsers */
-   line-clamp: 2; /* Standard property for compatibility */
+   -webkit-line-clamp: 2; 
+   line-clamp: 2; 
    -webkit-box-orient: vertical; 
    overflow: hidden; 
    text-overflow: ellipsis;
